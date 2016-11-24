@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HeroService } from './hero.service';
 
 @Component({
+  moduleId: module.id,
   template: `
     <h1>{{title}}</h1>
     <nav>
